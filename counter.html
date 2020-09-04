@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Counter Antrian</title>
+</head>
+<body>
+	<div class="container" style="align-content: center;">
+		<center><h2>Counter Antrian</h2>
+		<span id="demo" style="font-size: 60px;">0</span>
+		<br><br>
+		<button onclick="counterplus()">+</button>
+		<button onclick="countermin()">-</button>
+		</center>
+	</div>
+	<script type="text/javascript">
+		var i = 0;
+		function counterplus() {
+			i++;
+			var demo = document.getElementById('demo').innerHTML=i;
+		}
+		function countermin() {
+			i--;
+			var demo = document.getElementById('demo').innerHTML=i;
+		}
+	</script>
+</body>
+</html>
